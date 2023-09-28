@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    background-color: rgb(84, 81, 81);
+    border-radius: 8px;
+    border: 3px solid rgb(135, 130, 130);
+}
+
+#screen{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    height:70px;
+    border-radius: 8px;
+    align-items:end;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#displayRes{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#display{
+    font-size: x-large;
+}
+
+#uppers{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#ac, #suppr{
+    padding: 8px;
+    width: 190px;
+}
+
+button{
+    height: 80px;
+    border-radius: 8px;
+}
+
+.digit, .operator, #exe{
+    width: 95px;
+}
+
+#lowers {
+    display: flex;
+    justify-content: center;
+}
+
+#digits{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 8px;
+}
+
+#operators{
+    margin-right: 8px;
+}
